@@ -149,9 +149,8 @@ function Home() {
           </div>
           <div className="col-12 py-5 col-md-6">
             <Fade left cascade>
-              <p className="f-22 my-4">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta deserunt natus minus corporis praesentium? Cumque culpa quasi, quisquam maiores.
-
+              <p className="f-18 my-4">
+              Sustainable electronic prosthetics made from recyclable components, fostering social inclusion for individuals with mobility impairments at an affordable cost through partnerships with organizations dedicated to sustainability and social responsibility.
               </p>
 
               <br />
