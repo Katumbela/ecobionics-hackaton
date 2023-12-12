@@ -27,8 +27,8 @@ const Ngos = () => {
         { nome: 'Gustavo Oliveira', foto: im1, disability: 'Autism' },
         { nome: 'Isabela Rocha', foto: im1, disability: 'Intellectual disability' },
         { nome: 'Matheus Pereira', foto: im1, disability: 'Wheelchair user' },
-      ];
-      
+    ];
+
     const selectRef = useRef(null);
     const [parteDoCorpoSelecionada, setParteDoCorpoSelecionada] = useState("");
 
@@ -177,6 +177,12 @@ const Ngos = () => {
                                 ))}
 
 
+                                <center>
+                                    <br />
+                                    <br />
+                                    <br />
+                                    <button className="btn btn-success">Submit</button>
+                                </center>
                             </div>
                         </div>
 
