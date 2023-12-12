@@ -101,12 +101,12 @@ Back                </NavLink>
                 <div className="cadastro-imagem">
                     <img src={l} className="w-100" alt="" />
                 </div>
-                <div style={{ background: '#49494942' }} className="cadastro-login text-center me-md-5 position-relative px-4 pb-4 shadow-lg shadow-light border-1 border-white rounded-4">
+                <div style={{ background: '#fff' }} className="cadastro-login text-center me-md-5 position-relative px-4 pb-4 shadow-lg shadow-light border-1 border-white rounded-4">
                     <center>
                         <img src={p} className="mt-4" style={{ height: '5em' }} alt="" />
                     </center>
                     <div>
-                        <h2 className={'mt-1 mx-4 px-4 text-e'}>Welcome back</h2>
+                        <h5 className={'mt-1 mx-4 px-4 text-dark'}>Welcome </h5>
                         <div className="text-start">
                             <br />
                             <input

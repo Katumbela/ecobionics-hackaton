@@ -17,10 +17,10 @@ const Srcs = () => {
 
     const lista = [
         { nome: 'João Silva', foto: im1, disability: 'Amputation of limbs' },
-        { nome: 'Maria Oliveira', foto: im1, disability: 'Visual impairment' },
-        { nome: 'Carlos Pereira', foto: im1, disability: 'Deafness' },
-        { nome: 'Ana Souza', foto: im1, disability: 'Cerebral palsy' },
-        { nome: 'Pedro Santos', foto: im1, disability: 'Blindness' },
+        { nome: 'Maria Oliveira', foto: im1, disability: 'Amputation Legs' },
+        { nome: 'Carlos Pereira', foto: im1, disability: 'Amputation Fingers ' },
+        { nome: 'Ana Souza', foto: im1, disability: 'Amputation limbs' },
+        { nome: 'Pedro Santos', foto: im1, disability: 'Amputation Legs' },
         { nome: 'Camila Lima', foto: im1, disability: 'Amputation of leg' },
         { nome: 'Rafaela Costa', foto: im1, disability: 'Hearing impairment' },
         { nome: 'Lucas Almeida', foto: im1, disability: 'Reduced mobility' },

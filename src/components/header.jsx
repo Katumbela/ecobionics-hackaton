@@ -54,10 +54,10 @@ const Header = () => {
             <div className="collapse navbar-collapse" id="navbarSupportedContent">
               <ul className="navbar-nav me-auto my-auto mb-2 mb-lg-0">
                 <li className="nav-item my-auto">
-                  <a className="nav-link my-auto active" aria-current="page" href="#">NGO's</a>
+                  <NavLink className="nav-link my-auto active" aria-current="page" href="#">NGO's</NavLink>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="#">For SRC</a>
+                  <NavLink to={'/srcs'} className="nav-link" href="#">For SRC</NavLink>
                 </li>
 
                 <li className="nav-item">

@@ -69,7 +69,7 @@ function Home() {
           <div className="col-lg- container col-md-6 centro ">
             <h1 className='my-auto'>ECOBIONICS</h1>
             <p>
-              Inovações sustentáveis ​​e soluções biônicas. Produtos eco-amigáveis ​​que unem tecnologia e natureza para um futuro mais verde.
+            Sustainable electronic prosthetics made from recyclable components.
             </p>
           </div>
         </div>
