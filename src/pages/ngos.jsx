@@ -181,7 +181,7 @@ const Ngos = () => {
                                     <br />
                                     <br />
                                     <br />
-                                    <button className="btn btn-success">Submit</button>
+                                    <button className="btn btn-success rounded-0">Submit</button>
                                 </center>
                             </div>
                         </div>
