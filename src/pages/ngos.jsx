@@ -119,7 +119,7 @@ const Ngos = () => {
 
                     <div className="col-12 col-md-9">
                         <div className="add-tab">
-                            <div className="form-ngo d-none w-100">
+                            <div className="form-ngo  w-100">
                                 <div className="text-end mt-4">
                                     <button className="btn btn-sm add-mais btn-success rounded-circle" onClick={adicionarPessoa}>
                                         <i className="bi bi-plus"></i>
@@ -180,7 +180,7 @@ const Ngos = () => {
                             </div>
                         </div>
 
-                        <div className="users-tab d-">
+                        <div className="users-tab d-none">
 
                             <br />
                             <br />
