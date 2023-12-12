@@ -13,7 +13,7 @@ const UserListItemm = ({ nome, foto, deficiencia }) => (
   );
 
 const UserListm = ({ usuarios }) => (
-    <div className="user-list  row  justify-content-start">
+    <div className="user-list  row  justify-content-center">
         {usuarios.map((usuario, index) => (
             <UserListItemm
                 key={index}

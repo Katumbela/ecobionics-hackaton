@@ -12,7 +12,6 @@ import { db, auth } from "../pages/firebase";
 import { ToastContainer, toast } from "react-toastify";
 import format from "date-fns/format";
 import { ptBR } from "date-fns/locale";
-import Select from "react-select";
 
 const Content = () => {
   const [projectName, setProjectName] = useState("");
@@ -438,32 +437,7 @@ const Content = () => {
                         Responsável do projeto
                       </label>
                       {/* Adicione este código ao seu componente JSX */}
-                      <Select
-                        value={selectedUser}
-                        onChange={(selectedOption) =>
-                          setSelectedUser(selectedOption)
-                        }
-                        options={teamMembers.map((member) => ({
-                          value: member.email,
-                          label: (
-                            <div
-                              style={{ display: "flex", alignItems: "center" }}
-                            >
-                              <img
-                                src={member.fotoPerfil}
-                                alt={`Foto de ${member.nome}`}
-                                style={{
-                                  width: "30px",
-                                  height: "30px",
-                                  borderRadius: "50%",
-                                  marginRight: "5px",
-                                }}
-                              />
-                              {member.nomeCompleto}
-                            </div>
-                          ),
-                        }))}
-                      />
+                     
                     </p>
                   </div>
 
