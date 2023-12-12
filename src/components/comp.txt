@@ -1,0 +1,10 @@
+
+const UserListItem = ({ nome, foto, deficiencia }) => (
+  <div className="user-list-item text-center" style={{width:'15rem'}}>
+    <img style={{height:'7em'}} src={foto} alt={`${nome}'s Photo`} className="user-photo  rounded-circle rounded-full" />
+    <div className="user-info">
+      <h4><b>{nome}</b></h4>
+      <p>Disability: <b className='text-success'>{deficiencia}</b></p>
+    </div>
+  </div>
+);
