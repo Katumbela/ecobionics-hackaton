@@ -420,6 +420,7 @@ code {
 .btn-outline-success:focus-within {
   background: #80cc09!important;
   border-color: #00f96c;
+  color: white;
   border-color: #80cc09;
 }
 
